@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3307/portfolio
+    username: mymy
+    password: 123456
+
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
